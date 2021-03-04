@@ -8,6 +8,10 @@ class Haha extends React.Component {
     };
   }
 
+  haha = () => {
+    console.log('666')
+  }
+
   test() {
     console.log(this);
   }
